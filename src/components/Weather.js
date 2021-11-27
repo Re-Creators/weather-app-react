@@ -26,12 +26,21 @@ const StyledContainer = styled.div`
   @media (min-width: 768px) {
     width: 18%;
     margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 1rem;
   }
 
   img {
     width: 100%;
     height: 80px;
     object-fit: contain;
+  }
+
+  span {
+    height: 35px;
   }
 
   .temp {
