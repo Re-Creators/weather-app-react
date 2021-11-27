@@ -37,6 +37,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
+![weather](https://user-images.githubusercontent.com/51537231/143671025-9d206dd6-c93c-420c-8a1b-ce4fc0bdde1f.PNG)
 
 Weather App is a website to see the current weather forecast and the weather for the next 6 days.
 
