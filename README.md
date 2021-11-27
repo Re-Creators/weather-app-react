@@ -1,44 +1,99 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<!-- Please update value in the {}  -->
 
-## Available Scripts
+<h1 align="center">Weather App</h1>
 
-In the project directory, you can run:
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-### `npm start`
+<div align="center">
+  <h3>
+    <a href="https://weather-app-io.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/solutions/mz0eCu2jpsCXIDJj2q0i">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How To Use](#how-to-use)
+- [Acknowledgement](#acknowledgement)
+- [Contact](#contact)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- OVERVIEW -->
 
-### `npm run build`
+## Overview
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Weather App is a website to see the current weather forecast and the weather for the next 6 days.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The information provided on this website is :
+- Humidity
+- Wind status
+- Visibility
+- Air Pressure
+  
+Unfortunately this application can't get your location 
+automatically, so you have to search your location to see current forecast weather.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `npm run eject`
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React](https://reactjs.org/)
+- [styled-components](https://styled-components.com/)
+- [Redux](https://redux.js.org/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) was to build an application to complete the given user stories.
 
-## Learn More
+- User story: I can see city weather as default, preferably my current location
+- I can search for city
+- I can see weather of today and the next 5 days
+- I can see the date and location of the weather
+- I can see according to image for each type of weather
+- I can see the min and max degree each day
+- I can see wind status and wind direction
+- I can see humidity percentage
+- I can see a visibility indicator
+- I can see the air pressure number
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How To Use
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- Example: -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Re-Creators/weather-app-react
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+
+```
+## Acknowledgement
+- [MetaWeather](https://www.metaweather.com/api/)
+
+## Contact
+
+- GitHub [Re-Creators](https://github.com/Re-Creators)
